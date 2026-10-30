@@ -5,8 +5,8 @@ using UnityEngine;
 public class GridManager3D : MonoBehaviour
 {
     [SerializeField] private Grid grid;
-    [SerializeField] private int width = 10;
-    [SerializeField] private int depth = 10;
+    [SerializeField] private int width = 20;
+    [SerializeField] private int depth = 20;
 
     private bool[,] occupiedCells;
     private bool[,] blockedCells;
